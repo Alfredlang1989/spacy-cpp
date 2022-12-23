@@ -36,7 +36,7 @@ namespace Spacy
     long dep() const;
     std::string dep_() const;
     std::string ent_iob_() const;
-    std::string ent_type_() const
+    std::string ent_type_() const;
     bool has_vector() const;
     long i() const;
     long idx() const;
