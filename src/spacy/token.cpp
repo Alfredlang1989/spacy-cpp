@@ -52,6 +52,12 @@ namespace Spacy
     return Python::get_attr_value<std::string>(m_token, "ent_iob_");
   }
 
+    std::string Token::ent_type_() const
+  {
+    return Python::get_attr_value<std::string>(m_token, "ent_type_");
+  }
+
+
   bool Token::has_vector() const
   {
     return Python::get_attr_value<bool>(m_token, "has_vector");
